@@ -17,7 +17,7 @@
 ## Hi, I'm Amir 👋
 
 I build full-stack web applications for real businesses. Over the past months I've built
-the internal tools and websites of an industrial group in Tunisia (**SMCP Industrie / SMCP Metal**) and a few other local businesses:
+the internal tools and websites of an industrial group in Tunisia (**SMCP Metal**) and a few other local businesses:
 a sales CRM, a stock and cutting-management platform, B2B websites, and a marketplace for metal and plastic offcuts.
 
 I work across the whole stack: database schema, REST APIs, authentication and roles, React front ends,
