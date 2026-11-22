@@ -17,7 +17,7 @@
 ## Hi, I'm Amir 👋
 
 I build full-stack web applications for real businesses. Over the past months I've built
-the internal tools and websites of an industrial group in Tunisia (**SMCP Metal**) and a few other local businesses:
+the internal tools and websites of an industrial group in Tunisia (**SMCP**) and a few other local businesses:
 a sales CRM, a stock and cutting-management platform, B2B websites, and a marketplace for metal and plastic offcuts.
 
 I work across the whole stack: database schema, REST APIs, authentication and roles, React front ends,
@@ -80,7 +80,7 @@ An online shop where machinable offcuts are sold piece by piece, with a full bac
 
 ### SMCP CRM: sales CRM for an industrial distributor
 
-Built for the SMCP Metal sales team to manage prospects, clients, field visits, and the pipeline.
+Built for the SMCP sales team to manage prospects, clients, field visits, and the pipeline.
 
 - Monorepo: NestJS API, React web app, and a shared package for business rules and design tokens
 - Role-based access: no self-sign-up, only managers create accounts, and rules enforced server-side (for example, at least one active manager)
@@ -103,7 +103,7 @@ Internal B2B platform for cutting and selling plastic and metal stock across two
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| **SMCP Metal website (v2)** | Company site pre-rendered in FR/AR/EN, quote requests with validated file uploads (PDF, DWG, DXF, STEP), anti-spam, and strict security headers | TypeScript, Express 5, Drizzle, React Router 7 |
+| **SMCP website (v2)** | Company site pre-rendered in FR/AR/EN, quote requests with validated file uploads (PDF, DWG, DXF, STEP), anti-spam, and strict security headers | TypeScript, Express 5, Drizzle, React Router 7 |
 | **SMCP platform (v1)** | Product catalogue, client onboarding, quote generation, stock arrivals, and an admin dashboard | Express 5, Prisma, PostgreSQL, React, jsPDF |
 | **HARDMAT** | B2B website for engineering plastics (POM-C, PEEK, FR4) | Express, Prisma, PostgreSQL, React |
 | **2SLC delivery slips** | Delivery slip app with yearly numbering, A4 PDF output, PostgreSQL sessions, CSRF protection, and Zod validation | Express, PostgreSQL, React, PDFKit |
