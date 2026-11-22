@@ -25,7 +25,17 @@ PDF generation, multilingual UIs (French, Arabic RTL, English), tests, and deplo
 
 ## 🛠️ Tech stack
 
-These are the tools I use in my projects, not a list of things I've read about.
+The AI group comes from my [certified coursework](#-certifications). Everything after it is what I use in the projects below.
+
+**AI engineering & machine learning**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow,r&theme=dark" alt="Python, TensorFlow, R" />
+</p>
+
+- **LLMs & agents:** OpenAI API · LangChain · LangGraph (agents with conversational memory) · MCP (Model Context Protocol) · agent architecture and evaluation
+- **Retrieval & NLP:** Pinecone vector database · NLP fundamentals · Streamlit for LLM app front ends
+- **Data & ML:** pandas · NumPy · machine learning in Python · deep learning with TensorFlow 2 · data visualization (Python, R, Tableau, Excel)
 
 **Languages & front end**
 
@@ -50,14 +60,6 @@ Express 5 · NestJS 11 · Prisma · Drizzle ORM · PostgreSQL (Neon, PGlite) · 
 </p>
 
 Vitest · Playwright + axe (accessibility) · Biome · Docker · GitHub Actions CI/CD · Render
-
-**AI & machine learning** (from my coursework, see Certifications below)
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,tensorflow&theme=dark" alt="Python, TensorFlow" />
-</p>
-
-OpenAI API · LangChain · LangGraph · MCP · Pinecone (vector search) · Streamlit · pandas · NumPy · machine learning and deep learning in Python
 
 ## 🚀 Featured work
 
