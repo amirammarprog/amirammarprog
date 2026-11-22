@@ -5,13 +5,13 @@
 -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Mohammed%20Amir%20Ammar&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=Full-Stack%20Developer%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Node.js&descSize=17&descAlignY=58" alt="Mohammed Amir Ammar, Full-Stack Developer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:2563eb&height=190&section=header&text=Mohammed%20Amir%20Ammar&fontColor=ffffff&fontSize=42&fontAlignY=36&desc=AI%20Engineer%20%2F%20Software%20Engineer%20%C2%B7%20TypeScript%20%C2%B7%20React%20%C2%B7%20Node.js&descSize=17&descAlignY=58" alt="Mohammed Amir Ammar, AI Engineer / Software Engineer" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mohammedamir-ammar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mohammedamir.ammar@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Open%20to-Junior%20Full--Stack%20roles%20%C2%B7%20Remote-16a34a?style=for-the-badge" alt="Open to junior full-stack roles, remote" />
+  <img src="https://img.shields.io/badge/Open%20to-AI%20%26%20Software%20Engineering%20roles%20%C2%B7%20Remote-16a34a?style=for-the-badge" alt="Open to AI and software engineering roles, remote" />
 </p>
 
 ## Hi, I'm Amir 👋
@@ -50,6 +50,14 @@ Express 5 · NestJS 11 · Prisma · Drizzle ORM · PostgreSQL (Neon, PGlite) · 
 </p>
 
 Vitest · Playwright + axe (accessibility) · Biome · Docker · GitHub Actions CI/CD · Render
+
+**AI & machine learning** (from my coursework, see Certifications below)
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,tensorflow&theme=dark" alt="Python, TensorFlow" />
+</p>
+
+OpenAI API · LangChain · LangGraph · MCP · Pinecone (vector search) · Streamlit · pandas · NumPy · machine learning and deep learning in Python
 
 ## 🚀 Featured work
 
@@ -105,18 +113,21 @@ Internal B2B platform for cutting and selling plastic and metal stock across two
 - Learning **AI engineering**: LLM apps with OpenAI and LangChain, agents and memory with LangGraph, MCP, and vector search with Pinecone.
 - Moving my projects to **TypeScript end to end**. The CRM, the marketplace, and the new SMCP website are typed front to back.
 
-## 📜 Certificates
+## 📜 Certifications
 
-**AI Engineer** and **AI Agent Engineer** coursework on [365 Data Science](https://365datascience.com/), 17 courses completed in 2026. Click a title to open its certificate.
+- **Certified Cybersecurity Educator Professional (CCEP)**: Red Team Leaders, exam passed October 2026 · [verify](https://courses.redteamleaders.com/exam-completion/40fe651e3639fb41)
+- **AWS Certified Generative AI Developer – Professional (AIP-C01), official practice question set**: AWS Training & Certification, completed October 2026 · [certificate](certificates/AWS-AIP-C01-practice-question-set.pdf)
 
-- **AI agents:** [Intro to AI Agents and Agentic AI](certificates/CC-FC068CEF92.pdf) · [AI Agent Architecture](certificates/CC-30EB5A693A.pdf) · [AI Agents in Practice](certificates/CC-B5574C126E.pdf) · [Evaluating AI Agents](certificates/CC-D55AEE0E96.pdf) · [MCPs for Everyone](certificates/CC-ADCE065DBE.pdf) · [Conversational AI Memory with LangGraph](certificates/CC-798808029D.pdf)
-- **LLMs & NLP:** [Intro to LLMs](certificates/CC-45F7C18842.pdf) · [Intro to NLP for AI](certificates/CC-9D8CABD5FF.pdf) · [Chat Applications with OpenAI and LangChain](certificates/CC-C5080E7C16.pdf) · [LLM Engineering with Streamlit and OpenAI](certificates/CC-F47E3C2CF6.pdf) · [Vector Databases with Pinecone](certificates/CC-69D8071CD6.pdf)
-- **Python, data & ML:** [Introduction to Python](certificates/CC-AFD3A770C1.pdf) · [Data Preprocessing with NumPy](certificates/CC-A2528C1637.pdf) · [Data Cleaning with pandas](certificates/CC-B3ED5B308F.pdf) · [Data Visualization (Python, R, Tableau, Excel)](certificates/CC-412E5771B6.pdf) · [Deep Learning with TensorFlow 2](certificates/CC-D25EE8E4A5.pdf)
-- **Tools:** [Git and GitHub](certificates/CC-85233E11B1.pdf)
+**AI Engineer** and **AI Agent Engineer** coursework on [365 Data Science](https://365datascience.com/): 19 courses completed in 2026. Each title links to its verification page.
+
+- **AI agents:** [Intro to AI Agents and Agentic AI](https://learn.365datascience.com/c/558fb78b5e/) · [AI Agent Architecture](https://learn.365datascience.com/c/704e98c783/) · [AI Agents in Practice](https://learn.365datascience.com/c/98a75a6517/) · [Evaluating AI Agents](https://learn.365datascience.com/c/afbf8381f9/) · [MCPs for Everyone](https://learn.365datascience.com/c/d9457657d9/) · [Conversational AI Memory with LangGraph](https://learn.365datascience.com/c/fc84847fa6/)
+- **AI, LLMs & NLP:** [Intro to AI](https://learn.365datascience.com/c/1c00d6359b/) · [Intro to LLMs](https://learn.365datascience.com/c/77b4a0cb1e/) · [Intro to NLP for AI](https://learn.365datascience.com/c/235b3b93f2/) · [Chat Applications with OpenAI and LangChain](certificates/CC-C5080E7C16.pdf) · [LLM Engineering with Streamlit and OpenAI](https://learn.365datascience.com/c/c13b28ba1f/) · [Vector Databases with Pinecone](https://learn.365datascience.com/c/03eecf4243/)
+- **Python, data & ML:** [Introduction to Python](https://learn.365datascience.com/c/3734ecc93c/) · [Data Preprocessing with NumPy](https://learn.365datascience.com/c/aca3a6db82/) · [Data Cleaning with pandas](https://learn.365datascience.com/c/e40c19d396/) · [Data Visualization (Python, R, Tableau, Excel)](https://learn.365datascience.com/c/00a97dc7e2/) · [Machine Learning in Python](https://learn.365datascience.com/c/61c5c2f5c2/) · [Deep Learning with TensorFlow 2](https://learn.365datascience.com/c/54573c6d3c/)
+- **Tools:** [Git and GitHub](https://learn.365datascience.com/c/1a842cdcbc/)
 
 ## 🎯 What I'm looking for
 
-A **Junior Full-Stack Developer / Software Engineer** role, remote or abroad, on a team where I can ship
+A **junior AI Engineer or Software Engineer** role, remote or abroad, on a team where I can ship
 real features, get code reviews, and grow. Most of what I've built so far turns a company's day-to-day process
 (sales, stock, quotes, delivery slips) into a web app.
 
@@ -137,7 +148,7 @@ real features, get code reviews, and grow. Most of what I've built so far turns 
 
 ## 📫 Let's talk
 
-Recruiting for a junior full-stack role, or need someone to build an internal tool? I'd like to hear about it.
+Recruiting for a junior AI or software engineering role, or need someone to build an internal tool? I'd like to hear about it.
 
 - **Email:** [mohammedamir.ammar@gmail.com](mailto:mohammedamir.ammar@gmail.com)
 - **LinkedIn:** [linkedin.com/in/mohammedamir-ammar](https://www.linkedin.com/in/mohammedamir-ammar/)
