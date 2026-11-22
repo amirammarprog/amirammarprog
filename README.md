@@ -25,7 +25,7 @@ PDF generation, multilingual UIs (French, Arabic RTL, English), tests, and deplo
 
 ## 🛠️ Tech stack
 
-The AI group comes from my [certified coursework](#-certifications) and my open-source project [Quote Copilot](https://github.com/amirammarprog/quote-copilot). Everything after it is what I use in my professional projects.
+The AI group comes from my [certified coursework](#-certifications) and my open-source projects [Multilingual AI Support Agent](https://github.com/amirammarprog/multilingual-ai-support-agent) and [Quote Copilot](https://github.com/amirammarprog/quote-copilot). Everything after it is what I use in my professional projects.
 
 **AI engineering & machine learning**
 
@@ -34,7 +34,8 @@ The AI group comes from my [certified coursework](#-certifications) and my open-
 </p>
 
 - **LLMs & agents:** OpenAI API · LangChain · LangGraph (agents with conversational memory) · MCP (Model Context Protocol) · agent architecture and evaluation
-- **Retrieval & NLP:** Pinecone vector database · NLP fundamentals · Streamlit for LLM app front ends
+- **Retrieval & NLP:** pgvector hybrid search (vector + full-text) · cross-encoder reranking · Pinecone · multilingual NLP (Arabic, French, English) · Streamlit for LLM app front ends
+- **Python back end:** FastAPI · SQLAlchemy · Alembic · Pydantic · pytest
 - **Data & ML:** pandas · NumPy · machine learning in Python · deep learning with TensorFlow 2 · data visualization (Python, R, Tableau, Excel)
 
 **Languages & front end**
@@ -62,6 +63,22 @@ Express 5 · NestJS 11 · Prisma · Drizzle ORM · PostgreSQL (Neon, PGlite) · 
 Vitest · Playwright + axe (accessibility) · Biome · Docker · GitHub Actions CI/CD · Render
 
 ## 🚀 Featured work
+
+### [Multilingual AI Support Agent](https://github.com/amirammarprog/multilingual-ai-support-agent): customer support in Arabic, Tunisian Arabic, French and English
+
+<a href="https://github.com/amirammarprog/multilingual-ai-support-agent"><img src="https://img.shields.io/badge/repo-public-2563eb?style=flat-square&logo=github" alt="Public repository" /></a>
+<a href="https://github.com/amirammarprog/multilingual-ai-support-agent/actions/workflows/ci.yml"><img src="https://github.com/amirammarprog/multilingual-ai-support-agent/actions/workflows/ci.yml/badge.svg" alt="CI status" /></a>
+<a href="https://github.com/amirammarprog/multilingual-ai-support-agent/actions/workflows/evals.yml"><img src="https://github.com/amirammarprog/multilingual-ai-support-agent/actions/workflows/evals.yml/badge.svg" alt="Evaluation status" /></a>
+
+A 24/7 support agent for e-commerce shops, by text or voice. It answers only from the shop's documents and live data, and when it doesn't know, it says so and offers a human.
+
+- LangGraph agent: guardrails → cheap/capable model router → planner → permission-checked tools → answer from evidence → validation (numbers not found in the evidence are rejected)
+- Hybrid RAG on PostgreSQL + pgvector: full-text and vector search, multilingual reranking, cross-lingual queries, citations
+- 7 tools (orders, stock, products, tickets, hand-off) served over MCP, with authorization in the backend and row-level security per shop
+- Adversarial security tests (prompt injection, other customers' data, price manipulation, poisoned documents) and a 130-question evaluation in 4 languages in GitHub Actions
+- React admin console and a 17 KB embeddable widget with Arabic right-to-left support
+
+`Python` `FastAPI` `LangGraph` `PostgreSQL` `pgvector` `MCP` `React` `TypeScript` `Docker` `GitHub Actions` `Langfuse`
 
 ### [Quote Copilot](https://github.com/amirammarprog/quote-copilot): AI agent for industrial quote requests
 
@@ -129,6 +146,7 @@ Internal B2B platform for cutting and selling plastic and metal stock across two
 ## 🌱 Right now
 
 - Building out **SMCP CRM**, the project I'm most active on. Its shared package is set up for future mobile and desktop clients.
+- Next for the **[Multilingual AI Support Agent](https://github.com/amirammarprog/multilingual-ai-support-agent)**: running its full evaluation with an LLM (only offline results are published so far) and recording a demo.
 - Building **[Quote Copilot](https://github.com/amirammarprog/quote-copilot)**. Next steps: LLM evals in CI on a larger test set, and a recorded demo.
 - Moving my projects to **TypeScript end to end**. The CRM, the marketplace, and the new SMCP website are typed front to back.
 
