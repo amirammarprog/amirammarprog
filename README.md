@@ -102,7 +102,17 @@ Internal B2B platform for cutting and selling plastic and metal stock across two
 ## 🌱 Right now
 
 - Building out **SMCP CRM**, the project I'm most active on. Its shared package is set up for future mobile and desktop clients.
+- Learning **AI engineering**: LLM apps with OpenAI and LangChain, agents and memory with LangGraph, MCP, and vector search with Pinecone.
 - Moving my projects to **TypeScript end to end**. The CRM, the marketplace, and the new SMCP website are typed front to back.
+
+## 📜 Certificates
+
+**AI Engineer** and **AI Agent Engineer** coursework on [365 Data Science](https://365datascience.com/), 17 courses completed in 2026. Click a title to open its certificate.
+
+- **AI agents:** [Intro to AI Agents and Agentic AI](certificates/CC-FC068CEF92.pdf) · [AI Agent Architecture](certificates/CC-30EB5A693A.pdf) · [AI Agents in Practice](certificates/CC-B5574C126E.pdf) · [Evaluating AI Agents](certificates/CC-D55AEE0E96.pdf) · [MCPs for Everyone](certificates/CC-ADCE065DBE.pdf) · [Conversational AI Memory with LangGraph](certificates/CC-798808029D.pdf)
+- **LLMs & NLP:** [Intro to LLMs](certificates/CC-45F7C18842.pdf) · [Intro to NLP for AI](certificates/CC-9D8CABD5FF.pdf) · [Chat Applications with OpenAI and LangChain](certificates/CC-C5080E7C16.pdf) · [LLM Engineering with Streamlit and OpenAI](certificates/CC-F47E3C2CF6.pdf) · [Vector Databases with Pinecone](certificates/CC-69D8071CD6.pdf)
+- **Python, data & ML:** [Introduction to Python](certificates/CC-AFD3A770C1.pdf) · [Data Preprocessing with NumPy](certificates/CC-A2528C1637.pdf) · [Data Cleaning with pandas](certificates/CC-B3ED5B308F.pdf) · [Data Visualization (Python, R, Tableau, Excel)](certificates/CC-412E5771B6.pdf) · [Deep Learning with TensorFlow 2](certificates/CC-D25EE8E4A5.pdf)
+- **Tools:** [Git and GitHub](certificates/CC-85233E11B1.pdf)
 
 ## 🎯 What I'm looking for
 
