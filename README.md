@@ -25,7 +25,7 @@ PDF generation, multilingual UIs (French, Arabic RTL, English), tests, and deplo
 
 ## 🛠️ Tech stack
 
-The AI group comes from my [certified coursework](#-certifications). Everything after it is what I use in the projects below.
+The AI group comes from my [certified coursework](#-certifications) and my open-source project [Quote Copilot](https://github.com/amirammarprog/quote-copilot). Everything after it is what I use in my professional projects.
 
 **AI engineering & machine learning**
 
@@ -63,7 +63,24 @@ Vitest · Playwright + axe (accessibility) · Biome · Docker · GitHub Actions 
 
 ## 🚀 Featured work
 
-> 🔒 These projects belong to the companies I built them for, so the repositories are private.
+### [Quote Copilot](https://github.com/amirammarprog/quote-copilot): AI agent for industrial quote requests
+
+<a href="https://github.com/amirammarprog/quote-copilot"><img src="https://img.shields.io/badge/repo-public-2563eb?style=flat-square&logo=github" alt="Public repository" /></a>
+<a href="https://github.com/amirammarprog/quote-copilot/actions/workflows/ci.yml"><img src="https://github.com/amirammarprog/quote-copilot/actions/workflows/ci.yml/badge.svg" alt="CI status" /></a>
+<img src="https://img.shields.io/badge/status-in%20progress-f59e0b?style=flat-square" alt="In progress" />
+
+An AI agent that turns a customer's quote request email into a priced draft quote, which a person reviews and approves before anything is sent.
+
+- LangGraph workflow: extract → retrieve → tool calls → price → draft → **human approval** → send, with customer memory ("same as last time but 20 mm thick")
+- OpenAI structured outputs (Pydantic) read the request. The model never computes prices: they come from a tested pricing tool
+- MCP server exposing 4 tools (`search_stock`, `get_material`, `price_cut`, `create_quote`) over a seeded Postgres database
+- Retrieval of material datasheets and past quotes with Pinecone
+- Eval harness in GitHub Actions: field accuracy, price error, tool-call correctness, cost and latency per request
+- Streamlit reviewer UI: inbox, extracted fields, quote preview, approve, edit or reject
+
+`Python` `LangGraph` `OpenAI API` `MCP` `Pinecone` `PostgreSQL` `Streamlit` `Docker` `GitHub Actions`
+
+> 🔒 The projects below belong to the companies I built them for, so the repositories are private.
 > I'm happy to walk you through the code and architecture on a call.
 
 ### LiquiStock: marketplace for metal and plastic offcuts
@@ -112,7 +129,7 @@ Internal B2B platform for cutting and selling plastic and metal stock across two
 ## 🌱 Right now
 
 - Building out **SMCP CRM**, the project I'm most active on. Its shared package is set up for future mobile and desktop clients.
-- Learning **AI engineering**: LLM apps with OpenAI and LangChain, agents and memory with LangGraph, MCP, and vector search with Pinecone.
+- Building **[Quote Copilot](https://github.com/amirammarprog/quote-copilot)**. Next steps: LLM evals in CI on a larger test set, and a recorded demo.
 - Moving my projects to **TypeScript end to end**. The CRM, the marketplace, and the new SMCP website are typed front to back.
 
 ## 📜 Certifications
