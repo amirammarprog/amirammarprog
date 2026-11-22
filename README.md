@@ -80,7 +80,7 @@ An online shop where machinable offcuts are sold piece by piece, with a full bac
 
 ### SMCP CRM: sales CRM for an industrial distributor
 
-Built for the SMCP Industrie sales team to manage prospects, clients, field visits, and the pipeline.
+Built for the SMCP Metal sales team to manage prospects, clients, field visits, and the pipeline.
 
 - Monorepo: NestJS API, React web app, and a shared package for business rules and design tokens
 - Role-based access: no self-sign-up, only managers create accounts, and rules enforced server-side (for example, at least one active manager)
