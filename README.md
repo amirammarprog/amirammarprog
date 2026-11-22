@@ -117,7 +117,13 @@ Internal B2B platform for cutting and selling plastic and metal stock across two
 ## 🎯 What I'm looking for
 
 A **Junior Full-Stack Developer / Software Engineer** role, remote or abroad, on a team where I can ship
-real features, get code reviews, and grow. I enjoy turning a messy business process into a tool people actually use.
+real features, get code reviews, and grow. Most of what I've built so far turns a company's day-to-day process
+(sales, stock, quotes, delivery slips) into a web app.
+
+<!--
+  Activity graph: hidden for now because GitHub only counts public contributions
+  until "Include private contributions on my profile" is turned on.
+  After turning that setting on, delete this comment's opening and closing lines to show it.
 
 ## 📈 Activity
 
@@ -127,6 +133,7 @@ real features, get code reviews, and grow. I enjoy turning a messy business proc
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=amirammarprog&bg_color=ffffff&color=1f2328&line=2563eb&point=1d4ed8&area=true&area_color=bfdbfe&hide_border=true&custom_title=Contribution%20activity" alt="Contribution activity graph" width="100%" />
   </picture>
 </p>
+-->
 
 ## 📫 Let's talk
 
